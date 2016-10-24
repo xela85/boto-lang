@@ -3,18 +3,28 @@ grammar org.emn.fil.boto.BotoLang with org.eclipse.xtext.common.Terminals
 generate botoLang "http://www.emn.org/fil/boto/BotoLang"
 
 Model:
-	Browser;
+	(functions+=Function)*
+	(browsers+=Browser)*;
 	
 Browser:
-	'browser' name=ID '{'
+	'browser' name=STRING '{'
 		(tabs+=Tab)*
 	'}';
 
 Tab:
-	'tab' name=ID '{'
-		(instructions+=(Goto | Click | Check | Fill | Put) ";")*
+	'tab' name=STRING '{'
+		instructions=InstructionList
 	'}'
 ;
+
+
+InstructionList: 
+	(instructions+=(Goto | Click | Check | Fill | Put | FunctionCall) ";")*
+;
+
+//////////////////
+// Instructions //
+//////////////////
 
 Goto: 
 	"goto" url=STRING
@@ -29,11 +39,18 @@ Fill:
 ;
 
 Check:
-	"check" object=Object "contains" value=STRING
+	"check" object=Object predicate=Predicate
+;
+
+
+Predicate: 
+	(keyword="contains" (not="not")? (stringValue=STRING | variable=[Variable])) |
+	(keyword="length" secondKeyword=("=" | ">" | "<" | ">=" | "<=") (value+=INT)+ )
+	
 ;
 
 Put: 
-	"put" object=Object "in" variable=Variable
+	"put" (object=Object | string=STRING) "in" variable=Variable
 ;
 
 
@@ -42,4 +59,23 @@ Variable: name=ID;
 Object: (html=Html param=STRING) | variable=[Variable];
 
 
-Html: "button" | "field" | "link";
+Html: tag=("button" | "field" | "link");
+
+
+//////////////////
+//   Functions  //
+//////////////////
+
+Function: 
+	"def" name=FunctionName "(" ((variables+=Variable ("," variables+=Variable)*)?")" "{"
+		instructions=InstructionList
+		"}"
+	)
+;
+
+FunctionCall: FunctionName "(" (variables+=[Variable] | stringVariables+=STRING 
+	("," variables+=[Variable] | stringVariables+=STRING)*
+)? ")";
+
+FunctionName: id=ID;
+
