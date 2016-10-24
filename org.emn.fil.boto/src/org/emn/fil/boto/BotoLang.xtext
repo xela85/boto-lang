@@ -1,0 +1,9 @@
+grammar org.emn.fil.boto.BotoLang with org.eclipse.xtext.common.Terminals
+
+generate botoLang "http://www.emn.org/fil/boto/BotoLang"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
