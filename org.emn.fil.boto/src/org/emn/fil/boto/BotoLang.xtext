@@ -8,14 +8,8 @@ Model:
 	
 Browser:
 	'browser' name=STRING '{'
-		(tabs+=Tab)*
-	'}';
-
-Tab:
-	'tab' name=STRING '{'
 		instructions=InstructionList
-	'}'
-;
+	'}';
 
 
 InstructionList: 
@@ -67,15 +61,12 @@ Html: tag=("button" | "field" | "link");
 //////////////////
 
 Function: 
-	"def" name=FunctionName "(" ((variables+=Variable ("," variables+=Variable)*)?")" "{"
+	"def" name=ID "(" ((variables+=Variable ("," variables+=Variable)*)?")" "{"
 		instructions=InstructionList
 		"}"
 	)
 ;
 
-FunctionCall: FunctionName "(" (variables+=[Variable] | stringVariables+=STRING 
-	("," variables+=[Variable] | stringVariables+=STRING)*
-)? ")";
+FunctionCall: name=[Function] "(" (variables+=Variable ("," variables+=Variable)*)? ")";
 
-FunctionName: id=ID;
 

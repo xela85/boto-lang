@@ -1,0 +1,12 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.google.fr";
+	
+	fill field "q" with "J'aime les patates";
+	put link "J'aime les patates" in request;
+	click request;
+	
+	
+}

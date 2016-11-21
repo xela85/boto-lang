@@ -3,7 +3,70 @@ grammar org.emn.fil.boto.BotoLang with org.eclipse.xtext.common.Terminals
 generate botoLang "http://www.emn.org/fil/boto/BotoLang"
 
 Model:
-	greetings+=Greeting*;
+	(functions+=Function)*
+	(browsers+=Browser)*;
 	
-Greeting:
-	'Hello' name=ID '!';
+Browser:
+	'browser' name=STRING '{'
+		instructions=InstructionList
+	'}';
+
+
+InstructionList: 
+	(instructions+=(Goto | Click | Check | Fill | Put | FunctionCall) ";")*
+;
+
+//////////////////
+// Instructions //
+//////////////////
+
+Goto: 
+	"goto" url=STRING
+;
+
+Click: 
+	"click" object=Object
+;
+
+Fill:
+	"fill" object=Object "with" value=STRING
+;
+
+Check:
+	"check" object=Object predicate=Predicate
+;
+
+
+Predicate: 
+	(keyword="contains" (not="not")? (stringValue=STRING | variable=[Variable])) |
+	(keyword="length" secondKeyword=("=" | ">" | "<" | ">=" | "<=") (value+=INT)+ )
+	
+;
+
+Put: 
+	"put" (object=Object | string=STRING) "in" variable=Variable
+;
+
+
+Variable: name=ID;
+
+Object: (html=Html param=STRING) | variable=[Variable];
+
+
+Html: tag=("button" | "field" | "link");
+
+
+//////////////////
+//   Functions  //
+//////////////////
+
+Function: 
+	"def" name=ID "(" ((variables+=Variable ("," variables+=Variable)*)?")" "{"
+		instructions=InstructionList
+		"}"
+	)
+;
+
+FunctionCall: name=[Function] "(" (variables+=Variable ("," variables+=Variable)*)? ")";
+
+

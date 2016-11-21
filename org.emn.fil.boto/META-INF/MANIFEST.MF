@@ -7,5 +7,23 @@ Bundle-SymbolicName: org.emn.fil.boto; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xbase,
- org.eclipse.equinox.common;bundle-version="3.5.0"
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.emn.fil.boto.scoping,
+ org.emn.fil.boto.botoLang.util,
+ org.emn.fil.boto.botoLang,
+ org.emn.fil.boto.parser.antlr,
+ org.emn.fil.boto.validation,
+ org.emn.fil.boto.generator,
+ org.emn.fil.boto,
+ org.emn.fil.boto.parser.antlr.internal,
+ org.emn.fil.boto.botoLang.impl,
+ org.emn.fil.boto.services,
+ org.emn.fil.boto.serializer
+Import-Package: org.apache.log4j

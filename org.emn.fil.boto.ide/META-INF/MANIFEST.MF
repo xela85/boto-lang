@@ -9,3 +9,6 @@ Require-Bundle: org.emn.fil.boto,
  org.eclipse.xtext.ide,
  org.eclipse.xtext.xbase.ide
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.emn.fil.boto.ide.contentassist.antlr,
+ org.emn.fil.boto.ide.contentassist.antlr.internal
+

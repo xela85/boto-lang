@@ -1,0 +1,8 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.google.fr";
+	fill field "q" with "J'aime les patates";
+	
+}
