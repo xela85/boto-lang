@@ -1,0 +1,8 @@
+
+
+browser "Firefox" {
+	
+	goto "http://www.lemonde.fr/";
+	click link "facebook";
+	click link "Plus tard";
+}

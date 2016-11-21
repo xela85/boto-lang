@@ -1,0 +1,12 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.cosling.com/";
+	click link "Choco Solver";
+	click link "Contact";
+	fill field "firstName" with "Alexandre";
+	fill field "lastName" with "LEBRUN";
+	fill field "mail" with "massimo.tisi@tisi.com";
+	click
+}

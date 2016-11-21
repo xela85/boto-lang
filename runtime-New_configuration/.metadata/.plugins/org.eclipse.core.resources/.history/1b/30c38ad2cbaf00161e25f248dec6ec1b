@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:botoLang="http://www.emn.org/fil/boto/BotoLang" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_Yq61UK-_EeaFvY9m0tmCfA" selectedViews="_aOYMIK-_EeaFvY9m0tmCfA" version="11.1.0.201608251200">
+    <semanticResources>sample.boto</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_aOYMIK-_EeaFvY9m0tmCfA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_KwmIIK_CEeaod6edDJ6AVQ" name="new BotoDiagram" representation="_KwmvMK_CEeaod6edDJ6AVQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']"/>
+        <target xmi:type="botoLang:Model" href="sample.boto#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_KwmvMK_CEeaod6edDJ6AVQ" name="new BotoDiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_KwmvMa_CEeaod6edDJ6AVQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_KwmvMq_CEeaod6edDJ6AVQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_KwmvNq_CEeaod6edDJ6AVQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_KwmvN6_CEeaod6edDJ6AVQ" type="Sirius" element="_KwmvMK_CEeaod6edDJ6AVQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_KwmvOa_CEeaod6edDJ6AVQ" type="2002" element="_KwmvM6_CEeaod6edDJ6AVQ">
+          <children xmi:type="notation:Node" xmi:id="_KwmvPK_CEeaod6edDJ6AVQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KwmvPa_CEeaod6edDJ6AVQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_NsqQoK_CEeaod6edDJ6AVQ" type="3007" element="_Nsl_MK_CEeaod6edDJ6AVQ">
+              <children xmi:type="notation:Node" xmi:id="_NsqQo6_CEeaod6edDJ6AVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NsqQpK_CEeaod6edDJ6AVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Nsq3sK_CEeaod6edDJ6AVQ" type="3003" element="_NspCgK_CEeaod6edDJ6AVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Nsq3sa_CEeaod6edDJ6AVQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nsq3sq_CEeaod6edDJ6AVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NsqQoa_CEeaod6edDJ6AVQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NsqQoq_CEeaod6edDJ6AVQ" x="79" y="144" width="223" height="79"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pzI9sK_DEeaod6edDJ6AVQ" type="3007" element="_py_MsK_DEeaod6edDJ6AVQ">
+              <children xmi:type="notation:Node" xmi:id="_pzI9s6_DEeaod6edDJ6AVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pzI9tK_DEeaod6edDJ6AVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pzI9ta_DEeaod6edDJ6AVQ" type="3003" element="_py_zwK_DEeaod6edDJ6AVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pzI9tq_DEeaod6edDJ6AVQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzI9t6_DEeaod6edDJ6AVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pzI9sa_DEeaod6edDJ6AVQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzI9sq_DEeaod6edDJ6AVQ" x="61" y="48" width="199" height="61"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KwmvPq_CEeaod6edDJ6AVQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KwmvP6_CEeaod6edDJ6AVQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KwmvOq_CEeaod6edDJ6AVQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KwmvO6_CEeaod6edDJ6AVQ" width="411" height="231"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_KwmvOK_CEeaod6edDJ6AVQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_pzMoEK_DEeaod6edDJ6AVQ" type="4001" element="_pzFTUK_DEeaod6edDJ6AVQ" source="_NsqQoK_CEeaod6edDJ6AVQ" target="_pzI9sK_DEeaod6edDJ6AVQ">
+          <children xmi:type="notation:Node" xmi:id="_pzNPIK_DEeaod6edDJ6AVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzNPIa_DEeaod6edDJ6AVQ" x="-1" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pzN2MK_DEeaod6edDJ6AVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzN2Ma_DEeaod6edDJ6AVQ" x="3" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pzN2Mq_DEeaod6edDJ6AVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzN2M6_DEeaod6edDJ6AVQ" x="3" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_pzMoEa_DEeaod6edDJ6AVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_pzMoEq_DEeaod6edDJ6AVQ" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pzMoE6_DEeaod6edDJ6AVQ" points="[-41, -39, 73, 81]$[-101, -105, 13, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pzUj4K_DEeaod6edDJ6AVQ" id="(0.4977578475336323,0.4936708860759494)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pzUj4a_DEeaod6edDJ6AVQ" id="(0.07537688442211055,0.2459016393442623)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KwmvM6_CEeaod6edDJ6AVQ" name="Firefox">
+      <target xmi:type="botoLang:Browser" href="sample.boto#//@browsers.0"/>
+      <semanticElements xmi:type="botoLang:Browser" href="sample.boto#//@browsers.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KwmvNK_CEeaod6edDJ6AVQ" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Nsl_MK_CEeaod6edDJ6AVQ" name="https://www.google.com" tooltipText="" outgoingEdges="_pzFTUK_DEeaod6edDJ6AVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.0"/>
+        <semanticElements xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_NspCgK_CEeaod6edDJ6AVQ" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Goto']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Goto']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_py_MsK_DEeaod6edDJ6AVQ" name="https://www.yahoo.com" incomingEdges="_pzFTUK_DEeaod6edDJ6AVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.1"/>
+        <semanticElements xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_py_zwK_DEeaod6edDJ6AVQ" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Goto']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Goto']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_pzFTUK_DEeaod6edDJ6AVQ" sourceNode="_Nsl_MK_CEeaod6edDJ6AVQ" targetNode="_py_MsK_DEeaod6edDJ6AVQ">
+      <target xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_pzHIgK_DEeaod6edDJ6AVQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@edgeMappings[name='']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_pzHIga_DEeaod6edDJ6AVQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@edgeMappings[name='']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_KwmvNa_CEeaod6edDJ6AVQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer"/>
+    <target xmi:type="botoLang:Model" href="sample.boto#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

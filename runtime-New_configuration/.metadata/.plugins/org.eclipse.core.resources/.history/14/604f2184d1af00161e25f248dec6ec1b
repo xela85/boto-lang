@@ -1,0 +1,9 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.cosling.com/";
+	click link "Choco Solver";
+	click link "Contact";
+	
+}

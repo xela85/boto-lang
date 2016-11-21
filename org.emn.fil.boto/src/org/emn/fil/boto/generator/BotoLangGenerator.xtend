@@ -150,7 +150,7 @@ class BotoLangGenerator extends AbstractGenerator {
 	def String transformInstructionList(InstructionList instructionList) {
 		'''
 			«instructionList.instructions.map[i | transform(i)].reduce[p1, p2| p1 + '''
-				Thread.sleep(1000);
+				Thread.sleep(3000);
 			''' + p2]»
 		'''
 	}

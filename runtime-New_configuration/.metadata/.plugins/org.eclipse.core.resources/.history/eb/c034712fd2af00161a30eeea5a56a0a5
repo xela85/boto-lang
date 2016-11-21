@@ -1,0 +1,32 @@
+package fr.emn.fil.boto.sample;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Sample {
+    
+public static void main( String[] args ) throws InterruptedException {
+		    	System.setProperty("webdriver.gecko.driver", "C:\\Dev\\_soft\\selenium\\geckodriver.exe");
+		    	System.setProperty("webdriver.chrome.driver", "C:\\Dev\\_soft\\selenium\\chromedriver.exe");
+		    	WebDriver driver;
+driver =  new FirefoxDriver(); 
+driver.get("https://www.cosling.com/");
+Thread.sleep(3000);
+driver.findElement(By.linkText("Choco Solver")).click();
+Thread.sleep(3000);
+driver.findElement(By.linkText("Contact")).click();
+Thread.sleep(3000);
+driver.findElement(By.name("firstName")).sendKeys("Alexandre");
+Thread.sleep(3000);
+driver.findElement(By.name("lastName")).sendKeys("LEBRUN");
+Thread.sleep(3000);
+driver.findElement(By.name("mail")).sendKeys("massimo.tisi@tisi.com");
+Thread.sleep(3000);
+driver.findElement(By.cssSelector("input[value=\"Send\"]")).click();
+	}
+}

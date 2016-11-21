@@ -1,0 +1,7 @@
+
+
+browser "Firefox" {
+	
+	goto "http://accessfrance.com/";
+	click link "Jeux en ligne";
+}

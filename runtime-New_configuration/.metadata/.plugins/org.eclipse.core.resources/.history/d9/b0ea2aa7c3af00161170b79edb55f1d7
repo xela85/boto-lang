@@ -1,0 +1,7 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.google.com";
+	
+}

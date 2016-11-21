@@ -1,0 +1,28 @@
+package fr.emn.fil.boto.sample;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Sample {
+    
+public static void main( String[] args ) throws InterruptedException {
+		    	System.setProperty("webdriver.gecko.driver", "C:\\Dev\\_soft\\selenium\\geckodriver.exe");
+		    	System.setProperty("webdriver.chrome.driver", "C:\\Dev\\_soft\\selenium\\chromedriver.exe");
+		    	WebDriver driver;
+driver =  new FirefoxDriver(); 
+driver.get("https://www.donaldjtrump.com/");
+Thread.sleep(1000);
+driver.findElement(By.cssSelector("input[value=\"Kikoo\"]")).sendKeys("azdazd");
+Thread.sleep(1000);
+driver.findElement(By.cssSelector("input[value=\"Dazdazd\"]")).click();
+Thread.sleep(1000);
+assert true;
+Thread.sleep(1000);
+driver.get("https://www.yahoo.com");
+	}
+}

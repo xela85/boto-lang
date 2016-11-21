@@ -1,0 +1,8 @@
+
+
+browser "Firefox" {
+	
+	goto "http://www.lemonde.fr/";
+	click link "Codes promo";
+	click link "Plus tard";
+}

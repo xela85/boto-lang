@@ -1,0 +1,8 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.donaldjtrump.com/";
+	click button "Donate";
+	goto "https://www.yahoo.com";
+}

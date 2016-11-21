@@ -1,0 +1,9 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.donaldjtrump.com/";
+	click button "";
+	check field "dazdazd" contains "dazd";
+	goto "https://www.yahoo.com";
+}

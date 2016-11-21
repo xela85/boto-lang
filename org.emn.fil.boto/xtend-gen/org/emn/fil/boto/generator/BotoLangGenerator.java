@@ -342,7 +342,7 @@ public class BotoLangGenerator extends AbstractGenerator {
     List<String> _map = ListExtensions.<EObject, String>map(_instructions, _function);
     final Function2<String, String, String> _function_1 = (String p1, String p2) -> {
       StringConcatenation _builder_1 = new StringConcatenation();
-      _builder_1.append("Thread.sleep(1000);");
+      _builder_1.append("Thread.sleep(3000);");
       _builder_1.newLine();
       String _plus = (p1 + _builder_1);
       return (_plus + p2);

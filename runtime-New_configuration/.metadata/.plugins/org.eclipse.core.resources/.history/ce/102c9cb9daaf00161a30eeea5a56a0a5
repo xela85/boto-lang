@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:botoLang="http://www.emn.org/fil/boto/BotoLang" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_Yq61UK-_EeaFvY9m0tmCfA" selectedViews="_aOYMIK-_EeaFvY9m0tmCfA" version="11.1.0.201608251200">
+    <semanticResources>sample.boto</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_aOYMIK-_EeaFvY9m0tmCfA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_KwmIIK_CEeaod6edDJ6AVQ" name="new BotoDiagram" representation="_KwmvMK_CEeaod6edDJ6AVQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']"/>
+        <target xmi:type="botoLang:Model" href="sample.boto#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_KwmvMK_CEeaod6edDJ6AVQ" name="new BotoDiagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_KwmvMa_CEeaod6edDJ6AVQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_KwmvMq_CEeaod6edDJ6AVQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_KwmvNq_CEeaod6edDJ6AVQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_KwmvN6_CEeaod6edDJ6AVQ" type="Sirius" element="_KwmvMK_CEeaod6edDJ6AVQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_KwmvOa_CEeaod6edDJ6AVQ" type="2002" element="_KwmvM6_CEeaod6edDJ6AVQ">
+          <children xmi:type="notation:Node" xmi:id="_KwmvPK_CEeaod6edDJ6AVQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KwmvPa_CEeaod6edDJ6AVQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_NsqQoK_CEeaod6edDJ6AVQ" type="3007" element="_Nsl_MK_CEeaod6edDJ6AVQ">
+              <children xmi:type="notation:Node" xmi:id="_NsqQo6_CEeaod6edDJ6AVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NsqQpK_CEeaod6edDJ6AVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Nsq3sK_CEeaod6edDJ6AVQ" type="3003" element="_NspCgK_CEeaod6edDJ6AVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_Nsq3sa_CEeaod6edDJ6AVQ" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nsq3sq_CEeaod6edDJ6AVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_NsqQoa_CEeaod6edDJ6AVQ" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NsqQoq_CEeaod6edDJ6AVQ" x="247" y="390" width="223" height="79"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_DrEWQK_KEeavh6Kg32zUtA" visible="false" type="3007" element="_Dq7MUK_KEeavh6Kg32zUtA">
+              <children xmi:type="notation:Node" xmi:id="_DrE9UK_KEeavh6Kg32zUtA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_DrE9Ua_KEeavh6Kg32zUtA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_DrGLcK_KEeavh6Kg32zUtA" type="3016" element="_DrAE0K_KEeavh6Kg32zUtA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_DrGLca_KEeavh6Kg32zUtA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DrGLcq_KEeavh6Kg32zUtA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_DrEWQa_KEeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DrEWQq_KEeavh6Kg32zUtA" x="-41" y="54" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VuVfsK_QEeavh6Kg32zUtA" type="3007" element="_VuLHoK_QEeavh6Kg32zUtA">
+              <children xmi:type="notation:Node" xmi:id="_VuVfs6_QEeavh6Kg32zUtA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_VuVftK_QEeavh6Kg32zUtA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_VuWGxa_QEeavh6Kg32zUtA" type="3001" element="_VuLusa_QEeavh6Kg32zUtA">
+                <children xmi:type="notation:Node" xmi:id="_VuWt0q_QEeavh6Kg32zUtA" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_VuWt06_QEeavh6Kg32zUtA" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_VuXU4K_QEeavh6Kg32zUtA" type="3016" element="_VuMVwK_QEeavh6Kg32zUtA">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_VuXU4a_QEeavh6Kg32zUtA" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuXU4q_QEeavh6Kg32zUtA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_VuWt0K_QEeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuWt0a_QEeavh6Kg32zUtA" x="22" width="30" height="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_VuWt1K_QEeavh6Kg32zUtA" type="3003" element="_VuLusK_QEeavh6Kg32zUtA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_VuWt1a_QEeavh6Kg32zUtA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuWt1q_QEeavh6Kg32zUtA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_VuVfsa_QEeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuVfsq_QEeavh6Kg32zUtA" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_f_-5MK_REeavh6Kg32zUtA" type="3007" element="_f_4ykK_REeavh6Kg32zUtA">
+              <children xmi:type="notation:Node" xmi:id="_f_-5M6_REeavh6Kg32zUtA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_f_-5NK_REeavh6Kg32zUtA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_f__gQK_REeavh6Kg32zUtA" type="3001" element="_f_5Zoa_REeavh6Kg32zUtA">
+                <children xmi:type="notation:Node" xmi:id="_f__gQ6_REeavh6Kg32zUtA" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_f__gRK_REeavh6Kg32zUtA" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_gAAHUK_REeavh6Kg32zUtA" type="3016" element="_f_6AsK_REeavh6Kg32zUtA">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_gAAHUa_REeavh6Kg32zUtA" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAAHUq_REeavh6Kg32zUtA"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_f__gQa_REeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f__gQq_REeavh6Kg32zUtA" x="22" width="30" height="30"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_f__gRa_REeavh6Kg32zUtA" type="3003" element="_f_5ZoK_REeavh6Kg32zUtA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_f__gRq_REeavh6Kg32zUtA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f__gR6_REeavh6Kg32zUtA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_f_-5Ma_REeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f_-5Mq_REeavh6Kg32zUtA" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KwmvPq_CEeaod6edDJ6AVQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KwmvP6_CEeaod6edDJ6AVQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KwmvOq_CEeaod6edDJ6AVQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KwmvO6_CEeaod6edDJ6AVQ" width="783" height="519"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_KwmvOK_CEeaod6edDJ6AVQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_VuYjAK_QEeavh6Kg32zUtA" type="4001" element="_VuQnMK_QEeavh6Kg32zUtA" source="_NsqQoK_CEeaod6edDJ6AVQ" target="_VuVfsK_QEeavh6Kg32zUtA">
+          <children xmi:type="notation:Node" xmi:id="_VuYjBK_QEeavh6Kg32zUtA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuYjBa_QEeavh6Kg32zUtA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VuYjBq_QEeavh6Kg32zUtA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuYjB6_QEeavh6Kg32zUtA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VuZKEK_QEeavh6Kg32zUtA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VuZKEa_QEeavh6Kg32zUtA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_VuYjAa_QEeavh6Kg32zUtA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VuYjAq_QEeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VuYjA6_QEeavh6Kg32zUtA" points="[247, 390, 247, 390]$[0, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VuZKEq_QEeavh6Kg32zUtA" id="(0.4977578475336323,0.4936708860759494)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VuZKE6_QEeavh6Kg32zUtA" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gAAHU6_REeavh6Kg32zUtA" type="4001" element="_f_714K_REeavh6Kg32zUtA" source="_VuVfsK_QEeavh6Kg32zUtA" target="_f_-5MK_REeavh6Kg32zUtA">
+          <children xmi:type="notation:Node" xmi:id="_gAAuYK_REeavh6Kg32zUtA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAAuYa_REeavh6Kg32zUtA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gAAuYq_REeavh6Kg32zUtA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAAuY6_REeavh6Kg32zUtA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gAAuZK_REeavh6Kg32zUtA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gAAuZa_REeavh6Kg32zUtA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gAAHVK_REeavh6Kg32zUtA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gAAHVa_REeavh6Kg32zUtA" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gAAHVq_REeavh6Kg32zUtA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gAAuZq_REeavh6Kg32zUtA" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gAAuZ6_REeavh6Kg32zUtA" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KwmvM6_CEeaod6edDJ6AVQ" name="Firefox">
+      <target xmi:type="botoLang:Browser" href="sample.boto#//@browsers.0"/>
+      <semanticElements xmi:type="botoLang:Browser" href="sample.boto#//@browsers.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KwmvNK_CEeaod6edDJ6AVQ" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Nsl_MK_CEeaod6edDJ6AVQ" name="Go to https://www.cosling.com/" tooltipText="" outgoingEdges="_VuQnMK_QEeavh6Kg32zUtA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.0"/>
+        <semanticElements xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_NspCgK_CEeaod6edDJ6AVQ" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Goto']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Goto']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Dq7MUK_KEeavh6Kg32zUtA" name="Kikoo" visible="false" tooltipText="Kikoo" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="botoLang:Object" href="sample.boto#//@browsers.0/@instructions/@instructions.1/@object"/>
+        <semanticElements xmi:type="botoLang:Object" href="sample.boto#//@browsers.0/@instructions/@instructions.1/@object"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_DrAE0K_KEeavh6Kg32zUtA" labelPosition="node">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Object']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Object']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_VuLHoK_QEeavh6Kg32zUtA" name="Click" outgoingEdges="_f_714K_REeavh6Kg32zUtA" incomingEdges="_VuQnMK_QEeavh6Kg32zUtA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="botoLang:Click" href="sample.boto#//@browsers.0/@instructions/@instructions.1"/>
+        <semanticElements xmi:type="botoLang:Click" href="sample.boto#//@browsers.0/@instructions/@instructions.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_VuLusa_QEeavh6Kg32zUtA" name="Object Choco Solver" tooltipText="Choco Solver" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="botoLang:Object" href="sample.boto#//@browsers.0/@instructions/@instructions.1/@object"/>
+          <semanticElements xmi:type="botoLang:Object" href="sample.boto#//@browsers.0/@instructions/@instructions.1/@object"/>
+          <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_VuMVwK_QEeavh6Kg32zUtA" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']/@borderedNodeMappings[name='Object']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']/@borderedNodeMappings[name='Object']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_VuLusK_QEeavh6Kg32zUtA" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_f_4ykK_REeavh6Kg32zUtA" name="Click" incomingEdges="_f_714K_REeavh6Kg32zUtA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="botoLang:Click" href="sample.boto#//@browsers.0/@instructions/@instructions.2"/>
+        <semanticElements xmi:type="botoLang:Click" href="sample.boto#//@browsers.0/@instructions/@instructions.2"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_f_5Zoa_REeavh6Kg32zUtA" name="Object Contact" tooltipText="Contact" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="botoLang:Object" href="sample.boto#//@browsers.0/@instructions/@instructions.2/@object"/>
+          <semanticElements xmi:type="botoLang:Object" href="sample.boto#//@browsers.0/@instructions/@instructions.2/@object"/>
+          <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_f_6AsK_REeavh6Kg32zUtA" labelPosition="node" color="255,255,255">
+            <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']/@borderedNodeMappings[name='Object']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']/@borderedNodeMappings[name='Object']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_f_5ZoK_REeavh6Kg32zUtA" labelPosition="node" color="253,206,137">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@containerMappings[name='Browser']/@subNodeMappings[name='Click']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_VuQnMK_QEeavh6Kg32zUtA" sourceNode="_Nsl_MK_CEeaod6edDJ6AVQ" targetNode="_VuLHoK_QEeavh6Kg32zUtA">
+      <target xmi:type="botoLang:Goto" href="sample.boto#//@browsers.0/@instructions/@instructions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_VuQnMa_QEeavh6Kg32zUtA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@edgeMappings[name='']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_VuQnMq_QEeavh6Kg32zUtA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@edgeMappings[name='']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_f_714K_REeavh6Kg32zUtA" sourceNode="_VuLHoK_QEeavh6Kg32zUtA" targetNode="_f_4ykK_REeavh6Kg32zUtA">
+      <target xmi:type="botoLang:Click" href="sample.boto#//@browsers.0/@instructions/@instructions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_f_8c8K_REeavh6Kg32zUtA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@edgeMappings[name='']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_f_8c8a_REeavh6Kg32zUtA"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer/@edgeMappings[name='']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_KwmvNa_CEeaod6edDJ6AVQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/boto-lang.design/description/boto-lang.odesign#//@ownedViewpoints[name='BotoViewpoint']/@ownedRepresentations[name='BotoDiagram']/@defaultLayer"/>
+    <target xmi:type="botoLang:Model" href="sample.boto#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

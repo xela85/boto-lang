@@ -1,0 +1,8 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.donaldjtrump.com/";
+	click link "facebook";
+	click link "Plus tard";
+}

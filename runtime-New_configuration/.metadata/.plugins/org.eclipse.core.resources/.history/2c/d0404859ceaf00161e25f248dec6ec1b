@@ -1,0 +1,8 @@
+
+
+browser "Firefox" {
+	
+	goto "https://www.google.com";
+	fill button "Kikoo" with "azdazd";
+	goto "https://www.yahoo.com";
+}
